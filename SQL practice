@@ -1,1 +1,27 @@
-Here is a structure of a data base that was working with.
+Here is a structure of a DB that I was working with.
+
+5 tables: 
+         1) "directors" with movie_id and person_id
+         2) "movies" with id, title and year
+         3) "people" with id, name and birth
+         4) "ratings" with movie_id, rating and votes
+         5) "stars" with movie_id and person_id
+
+TASKS:
+
+      1) Display a list of titles of all films of 2010
+      2) Display the year of birth of the actress Emma Stone
+      3) Display all movies released in or after 2018 in alphabetical order
+      4) Display the number of movies with a rating of 10.0
+      5) Display movie titles that have a rating of 10.0
+      6) Display a list of all Harry Potter movies in chronological order
+      7) Display the average rating of all films of 2012
+      8) Display the names of all the actors who played in Toy Story
+      9) Display the name and year of birth of the director of Toy Story
+      10) Display 5 movies with the highest rating where Brad Pitt played
+      11) Display all movies where Brad Pitt and Angelina Jolie played together
+      
+Practice:
+      
+      1) SELECT title FROM movies where year = 2010
+      2) 
